@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following Python modules is used to create and manage virtual environments?",
+    "options": ["virtualenv", "venv", "pipenv", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "id": 2,
+    "question": "What will the following Python code output?\n\ndef func(x=[]):\n    x.append(1)\n    return x\nprint(func())\nprint(func())",
+    "options": ["[1], [1]", "[1], [1, 1]", "[1, 1], [1]", "None of the above"],
+    "answer": "[1], [1, 1]"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following best describes Python’s GIL (Global Interpreter Lock)?",
+    "options": [
+      "Allows multi-threading to run faster",
+      "Restricts execution of multiple threads to one at a time",
+      "A mechanism for garbage collection",
+      "Enables asynchronous execution"
+    ],
+    "answer": "Restricts execution of multiple threads to one at a time"
+  },
+  {
+    "id": 4,
+    "question": "What is the purpose of the @property decorator in Python?",
+    "options": [
+      "To define a function as static",
+      "To create immutable properties",
+      "To define a getter method for a property",
+      "To initialize instance variables"
+    ],
+    "answer": "To define a getter method for a property"
+  },
+  {
+    "id": 5,
+    "question": "What will be the output of the following code?\n\nclass A:\n    def __init__(self):\n        self.val = 10\nclass B(A):\n    def __init__(self):\n        super().__init__()\n        self.val += 5\nobj = B()\nprint(obj.val)",
+    "options": ["5", "10", "15", "Error"],
+    "answer": "15"
+  },
+  {
+    "id": 6,
+    "question": "Which method is used to make a deep copy of an object in Python?",
+    "options": ["copy.copy()", "copy.deepcopy()", "deepcopy.copy()", "None of the above"],
+    "answer": "copy.deepcopy()"
+  },
+  {
+    "id": 7,
+    "question": "Which Python library provides seamless bindings for DOM manipulation in browsers?",
+    "options": ["bs4", "selenium", "pyjs", "django"],
+    "answer": "selenium"
+  },
+  {
+    "id": 8,
+    "question": "In Python, how does @staticmethod differ from @classmethod?",
+    "options": [
+      "staticmethod doesn't require a self or cls argument, while classmethod requires cls.",
+      "staticmethod requires cls, while classmethod requires self.",
+      "Both are identical in behavior.",
+      "Neither works without the self argument."
+    ],
+    "answer": "staticmethod doesn't require a self or cls argument, while classmethod requires cls."
+  },
+  {
+    "id": 9,
+    "question": "What will the following Python code print?\n\nx = (i for i in range(3))\nprint(sum(x) + sum(x))",
+    "options": ["6", "3", "0", "Error"],
+    "answer": "3"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following Python features supports asynchronous programming?",
+    "options": ["Threads", "Async/Await", "Multiprocessing", "None of the above"],
+    "answer": "Async/Await"
+  },
+  {
+    "id": 11,
+    "question": "Which HTML attribute specifies alternative text for an image if the image cannot be displayed?",
+    "options": ["title", "alt", "src", "description"],
+    "answer": "alt"
+  },
+  {
+    "id": 12,
+    "question": "Which Bootstrap class provides a fixed-width container that is responsive?",
+    "options": ["container-fixed", "container-fluid", "container", "container-sm"],
+    "answer": "container"
+  },
+  {
+    "id": 13,
+    "question": "What is the primary purpose of the z-index property in CSS?",
+    "options": [
+      "Set the stacking order of elements",
+      "Adjust the scaling of elements",
+      "Define the size of elements",
+      "Center elements on the page"
+    ],
+    "answer": "Set the stacking order of elements"
+  },
+  {
+    "id": 14,
+    "question": "What does the Bootstrap class d-flex do?",
+    "options": [
+      "Adds padding to the element",
+      "Makes the element float",
+      "Converts the element into a flex container",
+      "None of the above"
+    ],
+    "answer": "Converts the element into a flex container"
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is not a valid Bootstrap breakpoint?",
+    "options": ["sm", "lg", "xl", "xs"],
+    "answer": "xs"
+  },
+  {
+    "id": 16,
+    "question": "Which CSS rule prevents an element from being resized by the user?",
+    "options": ["overflow: hidden", "resize: none", "display: fixed", "user-select: none"],
+    "answer": "resize: none"
+  },
+  {
+    "id": 17,
+    "question": "What is the correct syntax for a media query that applies styles for devices with a maximum width of 768px?",
+    "options": [
+      "@media (min-width: 768px)",
+      "@media (width: 768px)",
+      "@media (max-width: 768px)",
+      "@media (device-width: 768px)"
+    ],
+    "answer": "@media (max-width: 768px)"
+  },
+  {
+    "id": 18,
+    "question": "Which Bootstrap utility class is used to hide an element for all screen sizes?",
+    "options": ["d-none", "invisible", "d-hide", "hidden"],
+    "answer": "d-none"
+  },
+  {
+    "id": 19,
+    "question": "What does the following HTML code produce?\n\n<div class='dropdown'>\n  <button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>\n    Menu\n  </button>\n  <div class='dropdown-menu'>\n    <a class='dropdown-item' href='#'>Option 1</a>\n    <a class='dropdown-item' href='#'>Option 2</a>\n  </div>\n</div>",
+    "options": [
+      "A button with two options in a toggleable dropdown",
+      "A list with clickable links",
+      "A menu bar with multiple options",
+      "None of the above"
+    ],
+    "answer": "A button with two options in a toggleable dropdown"
+  },
+  {
+    "id": 20,
+    "question": "Which CSS property is used to create a grid layout?",
+    "options": ["display: table;", "display: grid;", "display: inline-grid;", "Both b and c"],
+    "answer": "Both b and c"
+  }
+]

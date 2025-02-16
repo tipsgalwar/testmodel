@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #2600b1, #4b00ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #2600b1;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+/* Instructions Box */
+.instructions {
+  background: #f8f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #2600b1;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.instructions h2 {
+  color: #2600b1;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.instructions ul {
+  list-style: none;
+}
+
+.instructions li {
+  font-size: 14px;
+  color: #333;
+  padding: 6px 0;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin: 10px 0 5px;
+  text-align: left;
+  font-size: 14px;
+  color: #2600b1;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+  background-color: #f9f9ff;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+  border-color: #2600b1;
+  box-shadow: 0px 0px 8px rgba(38, 0, 177, 0.5);
+  outline: none;
+  background-color: #ffffff;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+button {
+  background: linear-gradient(to right, #2600b1, #4b00ff);
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #1f0099, #3a00cc);
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .instructions {
+    padding: 15px;
+  }
+
+  .instructions h2 {
+    font-size: 16px;
+  }
+
+  .instructions li {
+    font-size: 12px;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"] {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCQ Test</title>
+    <link rel="stylesheet" href="../static/test.css" />
+
+  </head>
+  <body>
+    <h1>Answer all the Qyestions</h1>
+    <form action="/test" method="POST">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile Number:</label>
+        <input type="text" id="mobile" name="mobile" required />
+      </div>
+
+      {% for question in questions %}
+      <div class="question">
+        <p>{{ question['id'] }}. {{ question['question'] }}</p>
+        {% for option in question['options'] %}
+        <div class="option">
+          <input
+            type="radio"
+            id="{{ question['id'] }}_{{ loop.index }}"
+            name="{{ question['id'] }}"
+            value="{{ option }}"
+            required
+          />
+          <label for="{{ question['id'] }}_{{ loop.index }}"
+            >{{ option }}</label
+          >
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+
+      <button type="submit">Submit</button>
+    </form>
+    <img src="../static/sideimg.png" alt="image not found">
+    <script src="../static/test.js"></script>
+
+  </body>
+</html>

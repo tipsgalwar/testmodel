@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #2600b1, #4b00ff);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column; /* Ensures vertical stacking */
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  form {
+    background: white;
+    color: black;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column; /* Stacks form elements vertically */
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #2600b1;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #2600b1;
+    box-shadow: 0px 0px 8px rgba(38, 0, 177, 0.5);
+    outline: none;
+  }
+  
+  /* Question Section */
+  .question {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f0f0ff;
+    border-radius: 10px;
+    text-align: left;
+    border-left: 5px solid #2600b1;
+    width: 100%;
+  }
+  
+  .question p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2600b1;
+    margin-bottom: 10px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .option input {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  
+  .option label {
+    font-size: 14px;
+  }
+  
+  /* Submit Button */
+  button {
+    background: linear-gradient(to right, #2600b1, #4b00ff);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: 600;
+    width: 100%;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #1f0099, #3a00cc);
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    form {
+      width: 95%;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    form {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    .question p {
+      font-size: 14px;
+    }
+  
+    .option label {
+      font-size: 13px;
+    }
+  
+    input[type="text"] {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
+    /* Default logo size */
+img[alt="image not found"] {
+  width: 20vw;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  /* right: 0; */
+  left: 0;
+  /* margin-bottom: -40px; */
+}
+
+/* Adjust for mobile screens */
+@media (max-width: 768px) {
+  img[alt="image not found"] {
+    width: 200px;
+    height: auto;
+  }
+}
+/* Adjust for smaller screens */
+@media (max-width: 576px) {
+  img[alt="image not found"] {
+    width: 150px;
+    height: auto;
+  }
+}
+
+/* Adjust for even smaller screens */
+
+@media (max-width: 480px) {
+  img[alt="image not found"] {
+    width: 100px;
+    height: auto;
+  }
+}
+
+/* Adjust for even smaller screens */
+
+@media (max-width: 320px) {
+  img[alt="image not found"] {
+    width: 50px;
+    height: auto;
+  }
+}

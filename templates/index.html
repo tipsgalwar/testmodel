@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Test Registration</title>
+    <link rel="stylesheet" href="../static/index.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Register for the TTRE</h1>
+
+        <!-- Important Instructions Section -->
+        <div class="instructions">
+            <h2>Important Instructions:</h2>
+            <ul>
+                <li>📌 Attempt all questions carefully.</li>
+                <li>📌 Once submitted, you cannot retake the test.</li>
+                <li>📌 Ensure all details are correct before submitting.</li>
+                <li>📌 Do not refresh the page during the test.</li>
+                <li>📌 Malpractice or multiple attempts will lead to disqualification.</li>
+            </ul>
+        </div>
+
+        <form action="/" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" required placeholder="Enter your mobile number">
+
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="institute">School:</label>
+            <input type="text" id="institute" name="institute" required placeholder="Enter your institute">
+
+            <label for="education">Education:</label>
+            <input type="text" id="education" name="education" required placeholder="Enter your education level">
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required placeholder="Enter your city">
+
+            <!-- Agreement Checkbox -->
+            <label for="agreement">
+                <input type="checkbox" id="agreement" required>
+                I have read and agree to the above instructions.
+            </label>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="../static/index.js"></script>
+
+</body>
+</html>
