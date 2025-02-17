@@ -231,7 +231,7 @@ def test():
     except Exception as e:
         # Log the exception and return an error message
         print(f"An error occurred: {e}")
-        return f"An error occurred: {e}", 500
+        return f"An error occurred:{e}",500
             
 @app.route("/thankyou", methods=["GET"])
 def thankyou():
