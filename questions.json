@@ -1,35 +1,25 @@
 [
   {
     "id": 1,
-    "question": "What is the correct way to declare a variable in C?",
+    "question": "Who is the father of C language?",
     "options": [
-      "variable x;",
-      "x = variable;",
-      "int x;",
-      "x int;"
+      "Steve Jobs",
+      "James Gosling",
+      "Dennis Ritchie",
+      "Rasmus Lerdorf"
     ],
-    "answer": "int x;"
+    "answer": "Dennis Ritchie"
   },
   {
     "id": 2,
     "question": "Which of the following is not a valid data type in C?",
-    "options": [
-      "int",
-      "real",
-      "char",
-      "float"
-    ],
+    "options": ["int", "real", "char", "float"],
     "answer": "real"
   },
   {
     "id": 3,
-    "question": "What is the output of the following code snippet? ```c printf(\"%d\", sizeof(int)); ```",
-    "options": [
-      "2",
-      "4",
-      "8",
-      "Depends on the system"
-    ],
+    "question": "What is the output of the following code snippet? `printf(\"%d\", sizeof(int));`",
+    "options": ["2", "4", "8", "Depends on the system"],
     "answer": "Depends on the system"
   },
   {
@@ -56,35 +46,20 @@
   },
   {
     "id": 6,
-    "question": "What is the output of the following code snippet? ``` int x = 5; printf(\"%d\", x++); ```",
-    "options": [
-      "5",
-      "6",
-      "4",
-      "Error"
-    ],
+    "question": "What is the output of the following code snippet? `int x = 5; printf(\"%d\", x++);`",
+    "options": ["5", "6", "4", "Error"],
     "answer": "5"
   },
   {
     "id": 7,
     "question": "What is the size of an array declared as `int arr[5]` in C?",
-    "options": [
-      "5 bytes",
-      "10 bytes",
-      "20 bytes",
-      "Depends on the system"
-    ],
+    "options": ["5 bytes", "10 bytes", "20 bytes", "Depends on the system"],
     "answer": "Depends on the system"
   },
   {
     "id": 8,
     "question": "Which operator is used to access the value at a memory address in C?",
-    "options": [
-      "*",
-      "&",
-      "%",
-      "/"
-    ],
+    "options": ["*", "&", "%", "/"],
     "answer": "*"
   },
   {
@@ -123,12 +98,7 @@
   {
     "id": 12,
     "question": "Which header file should be included to use input/output functions in C?",
-    "options": [
-      "`<input.h>`",
-      "`<output.h>`",
-      "`<stdio.h>`",
-      "`<iostream.h>`"
-    ],
+    "options": ["`<input.h>`", "`<output.h>`", "`<stdio.h>`", "`<iostream.h>`"],
     "answer": "`<stdio.h>`"
   },
   {
@@ -144,35 +114,20 @@
   },
   {
     "id": 14,
-    "question": "What is the output of the following code snippet? ```c int x = 10; printf(\"%d\", x > 5 ? 1 : 0); ```",
-    "options": [
-      "1",
-      "0",
-      "Error",
-      "Depends on the system"
-    ],
+    "question": "What is the output of the following code snippet? `int x = 10; printf(\"%d\", x > 5 ? 1 : 0);`",
+    "options": ["1", "0", "Error", "Depends on the system"],
     "answer": "1"
   },
   {
     "id": 15,
     "question": "Which of the following is not a valid control structure in C?",
-    "options": [
-      "switch-case",
-      "if-else",
-      "repeat-until",
-      "for loop"
-    ],
+    "options": ["switch-case", "if-else", "repeat-until", "for loop"],
     "answer": "repeat-until"
   },
   {
     "id": 16,
     "question": "What does the `%d` format specifier indicate in a printf statement in C?",
-    "options": [
-      "Double",
-      "Decimal integer",
-      "String",
-      "Character"
-    ],
+    "options": ["Double", "Decimal integer", "String", "Character"],
     "answer": "Decimal integer"
   },
   {
@@ -200,23 +155,13 @@
   {
     "id": 19,
     "question": "What does the expression `(x && y)` evaluate to if x = 1 and y = 0?",
-    "options": [
-      "1",
-      "0",
-      "True",
-      "False"
-    ],
+    "options": ["1", "0", "True", "False"],
     "answer": "0"
   },
   {
     "id": 20,
     "question": "How do you declare a pointer variable in C?",
-    "options": [
-      "`pointer p;`",
-      "`p pointer;`",
-      "`int *p;`",
-      "`*int p;`"
-    ],
+    "options": ["`pointer p;`", "`p pointer;`", "`int *p;`", "`*int p;`"],
     "answer": "`int *p;`"
   },
   {
@@ -233,12 +178,7 @@
   {
     "id": 22,
     "question": "Which of these functions is used to compare two strings in C?",
-    "options": [
-      "`strcat()`",
-      "`strcmp()`",
-      "`strlen()`",
-      "`strcpy()`"
-    ],
+    "options": ["`strcat()`", "`strcmp()`", "`strlen()`", "`strcpy()`"],
     "answer": "`strcmp()`"
   },
   {
@@ -277,12 +217,7 @@
   {
     "id": 26,
     "question": "Which symbol is used to access the value pointed to by a pointer in C?",
-    "options": [
-      "&",
-      "*",
-      "->",
-      "::"
-    ],
+    "options": ["&", "*", "->", "::"],
     "answer": "*"
   },
   {
@@ -299,12 +234,7 @@
   {
     "id": 28,
     "question": "Which function is used to compare two strings in C?",
-    "options": [
-      "`strcmp()`",
-      "`strcat()`",
-      "`strlen()`",
-      "`strcpy()`"
-    ],
+    "options": ["`strcmp()`", "`strcat()`", "`strlen()`", "`strcpy()`"],
     "answer": "`strcmp()`"
   },
   {
@@ -321,12 +251,7 @@
   {
     "id": 30,
     "question": "Which of the following is not a valid identifier in C?",
-    "options": [
-      "`_variable`",
-      "`123variable`",
-      "`var_name`",
-      "`variable123`"
-    ],
+    "options": ["`_variable`", "`123variable`", "`var_name`", "`variable123`"],
     "answer": "`123variable`"
   },
   {
@@ -343,12 +268,7 @@
   {
     "id": 32,
     "question": "Which of the following is used to access elements in an array in C?",
-    "options": [
-      "()",
-      "[]",
-      "{}",
-      "<>"
-    ],
+    "options": ["()", "[]", "{}", "<>"],
     "answer": "[]"
   },
   {
@@ -375,24 +295,14 @@
   },
   {
     "id": 35,
-    "question": "What is the output of the following code snippet? ```c int x = 10; int y = 3; printf(\"%d\", x / y); ```",
-    "options": [
-      "3",
-      "2",
-      "3.33",
-      "0"
-    ],
+    "question": "What is the output of the following code snippet? `int x = 10; int y = 3; printf(\"%d\", x / y);`",
+    "options": ["3", "2", "3.33", "0"],
     "answer": "3"
   },
   {
     "id": 36,
     "question": "Which of the following is used to define a pointer in C?",
-    "options": [
-      "&",
-      "*",
-      "->",
-      "::"
-    ],
+    "options": ["&", "*", "->", "::"],
     "answer": "*"
   },
   {
@@ -408,24 +318,14 @@
   },
   {
     "id": 38,
-    "question": "What is the output of the following code snippet? ```c int x = 7; printf(\"%d\", x % 2); ```",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "3"
-    ],
+    "question": "What is the output of the following code snippet? `int x = 7; printf(\"%d\", x % 2);`",
+    "options": ["0", "1", "2", "3"],
     "answer": "1"
   },
   {
     "id": 39,
     "question": "Which function is used to copy one string to another in C?",
-    "options": [
-      "`strcat()`",
-      "`strcpy()`",
-      "`strlen()`",
-      "`strcmp()`"
-    ],
+    "options": ["`strcat()`", "`strcpy()`", "`strlen()`", "`strcmp()`"],
     "answer": "`strcpy()`"
   },
   {
@@ -453,12 +353,7 @@
   {
     "id": 42,
     "question": "Which symbol is used for preprocessor directives in C?",
-    "options": [
-      "#",
-      "$",
-      "&",
-      "*"
-    ],
+    "options": ["#", "$", "&", "*"],
     "answer": "#"
   },
   {
@@ -475,12 +370,7 @@
   {
     "id": 44,
     "question": "Which library should be included to use input/output functions like `printf` and `scanf` in C?",
-    "options": [
-      "`<stdlib.h>`",
-      "`<math.h>`",
-      "`<string.h>`",
-      "`<stdio.h>`"
-    ],
+    "options": ["`<stdlib.h>`", "`<math.h>`", "`<string.h>`", "`<stdio.h>`"],
     "answer": "`<stdio.h>`"
   },
   {
@@ -537,5 +427,91 @@
       "Restart the program execution"
     ],
     "answer": "Exit the program immediately"
+  },
+  {
+    "id": 50,
+    "question": "What is the output of the following code snippet? `int x = 10; printf(\"%d\", x << 1);`",
+    "options": ["10", "20", "5", "Error"],
+    "answer": "20"
+  },
+  {
+    "id": 51,
+    "question": "Which of the following is used to allocate memory for an array of 10 integers in C?",
+    "options": [
+      "`malloc(10);`",
+      "`malloc(10 * sizeof(int));`",
+      "`calloc(10, sizeof(int));`",
+      "`alloc(10 * sizeof(int));`"
+    ],
+    "answer": "`malloc(10 * sizeof(int));`"
+  },
+  {
+    "id": 52,
+    "question": "What is the purpose of the `typedef` keyword in C?",
+    "options": [
+      "Define a new data type",
+      "Declare a variable",
+      "Allocate memory dynamically",
+      "Include a header file"
+    ],
+    "answer": "Define a new data type"
+  },
+  {
+    "id": 53,
+    "question": "What is the output of the following code snippet? `int x = 5; int y = x++; printf(\"%d %d\", x, y);`",
+    "options": ["5 5", "6 5", "5 6", "6 6"],
+    "answer": "6 5"
+  },
+  {
+    "id": 54,
+    "question": "Which of the following is not a valid storage class in C?",
+    "options": ["`auto`", "`static`", "`extern`", "`volatile`"],
+    "answer": "`volatile`"
+  },
+  {
+    "id": 55,
+    "question": "What is the purpose of the `#define` directive in C?",
+    "options": [
+      "Define a macro",
+      "Declare a variable",
+      "Include a header file",
+      "Allocate memory"
+    ],
+    "answer": "Define a macro"
+  },
+  {
+    "id": 56,
+    "question": "What is the output of the following code snippet? `int x = 10; int *p = &x; printf(\"%d\", *p);`",
+    "options": ["10", "Address of x", "0", "Error"],
+    "answer": "10"
+  },
+  {
+    "id": 57,
+    "question": "Which of the following is used to deallocate memory in C?",
+    "options": ["`free()`", "`delete()`", "`remove()`", "`dealloc()`"],
+    "answer": "`free()`"
+  },
+  {
+    "id": 58,
+    "question": "What is the output of the following code snippet? `int x = 10; int y = 20; printf(\"%d\", x > y ? x : y);`",
+    "options": ["10", "20", "0", "Error"],
+    "answer": "20"
+  },
+  {
+    "id": 59,
+    "question": "Which of the following is not a valid way to declare a function in C?",
+    "options": [
+      "`int func();`",
+      "`int func(void);`",
+      "`func() {}`",
+      "`void func(int x);`"
+    ],
+    "answer": "`func() {}`"
+  },
+  {
+    "id": 60,
+    "question": "What is the correct way to declare a variable in C?",
+    "options": ["variable x;", "x = variable;", "int x;", "x int;"],
+    "answer": "int x;"
   }
 ]
