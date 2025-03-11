@@ -1,597 +1,541 @@
 [
   {
     "id": 1,
-    "question": "How does the rendering engine of a web browser process and render an HTML document, and how do the concepts of the DOM, CSSOM, and the render tree contribute to this process?",
+    "question": "What is the correct way to declare a variable in C?",
     "options": [
-      "The browser parses HTML into a DOM tree and CSS into a CSSOM tree, then combines them into a render tree.",
-      "HTML is directly converted into pixels without any intermediary steps.",
-      "JavaScript executes before the HTML is parsed to construct the final page layout.",
-      "The browser first loads all images and scripts before rendering any part of the page."
+      "variable x;",
+      "x = variable;",
+      "int x;",
+      "x int;"
     ],
-    "answer": "The browser parses HTML into a DOM tree and CSS into a CSSOM tree, then combines them into a render tree."
+    "answer": "int x;"
   },
   {
     "id": 2,
-    "question": "Which rendering approach is most suitable for improving SEO and initial load performance in web applications?",
+    "question": "Which of the following is not a valid data type in C?",
     "options": [
-      "Client-side rendering (CSR)",
-      "Server-side rendering (SSR)",
-      "Static site generation (SSG)",
-      "Both SSR and SSG"
+      "int",
+      "real",
+      "char",
+      "float"
     ],
-    "answer": "Both SSR and SSG"
+    "answer": "real"
   },
   {
     "id": 3,
-    "question": "What is the primary purpose of the 'defer' attribute in a script tag?",
+    "question": "What is the output of the following code snippet? ```c printf(\"%d\", sizeof(int)); ```",
     "options": [
-      "To execute the script before the HTML parsing starts",
-      "To delay script execution until after the entire document is parsed",
-      "To load scripts in parallel but execute them immediately",
-      "To prevent the script from running"
+      "2",
+      "4",
+      "8",
+      "Depends on the system"
     ],
-    "answer": "To delay script execution until after the entire document is parsed"
+    "answer": "Depends on the system"
   },
   {
     "id": 4,
-    "question": "Which of the following is NOT a valid value for the 'rel' attribute in a <link> tag?",
-    "options": ["stylesheet", "preload", "canonical", "fetch"],
-    "answer": "fetch"
+    "question": "What is the correct way to comment a single line in C?",
+    "options": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "-- This is a comment",
+      "# This is a comment"
+    ],
+    "answer": "// This is a comment"
   },
   {
     "id": 5,
-    "question": "What happens if multiple meta tags for viewport settings are used in an HTML document?",
+    "question": "What does the `scanf` function do in C?",
     "options": [
-      "Only the first meta viewport tag is applied",
-      "All meta viewport tags are merged",
-      "The last meta viewport tag takes precedence",
-      "None of them are applied"
+      "Print output to the console",
+      "Read input from the user",
+      "Perform arithmetic operations",
+      "Declare variables"
     ],
-    "answer": "The last meta viewport tag takes precedence"
+    "answer": "Read input from the user"
   },
   {
     "id": 6,
-    "question": "What is the difference between 'async' and 'defer' attributes in script tags?",
+    "question": "What is the output of the following code snippet? ``` int x = 5; printf(\"%d\", x++); ```",
     "options": [
-      "Both execute scripts in order but after HTML parsing",
-      "Async loads scripts in parallel and executes immediately, while defer waits until HTML parsing is complete",
-      "Defer loads scripts immediately but executes them later, async does not",
-      "There is no difference; both attributes function the same way"
+      "5",
+      "6",
+      "4",
+      "Error"
     ],
-    "answer": "Async loads scripts in parallel and executes immediately, while defer waits until HTML parsing is complete"
+    "answer": "5"
   },
   {
     "id": 7,
-    "question": "What is the default display property of an <input> element?",
-    "options": ["block", "inline", "inline-block", "none"],
-    "answer": "inline-block"
+    "question": "What is the size of an array declared as `int arr[5]` in C?",
+    "options": [
+      "5 bytes",
+      "10 bytes",
+      "20 bytes",
+      "Depends on the system"
+    ],
+    "answer": "Depends on the system"
   },
   {
     "id": 8,
-    "question": "Which of the following is NOT a valid HTML5 semantic element?",
-    "options": ["<article>", "<section>", "<footer>", "<style>"],
-    "answer": "<style>"
+    "question": "Which operator is used to access the value at a memory address in C?",
+    "options": [
+      "*",
+      "&",
+      "%",
+      "/"
+    ],
+    "answer": "*"
   },
   {
     "id": 9,
-    "question": "What happens if an HTML document does not include a <!DOCTYPE> declaration?",
+    "question": "What does the `break` statement do in a loop in C?",
     "options": [
-      "The page will not be rendered at all",
-      "The browser will switch to quirks mode",
-      "The document will be invalid and rejected by the browser",
-      "The page will load but with incorrect colors"
+      "Skips the current iteration and continues with the next iteration",
+      "Exits the loop and resumes execution after the loop",
+      "Terminates the program",
+      "None of the above"
     ],
-    "answer": "The browser will switch to quirks mode"
+    "answer": "Exits the loop and resumes execution after the loop"
   },
   {
     "id": 10,
-    "question": "What is the purpose of the 'sandbox' attribute in an <iframe>?",
+    "question": "What is the correct way to declare a string in C?",
     "options": [
-      "To prevent JavaScript execution",
-      "To provide a secure environment restricting iframe behavior",
-      "To disable all styles in the iframe",
-      "To block iframe loading"
+      "`string s = \"Hello\";`",
+      "`char s = \"Hello\";`",
+      "`char s[] = \"Hello\";`",
+      "`string s[] = \"Hello\";`"
     ],
-    "answer": "To provide a secure environment restricting iframe behavior"
+    "answer": "`char s[] = \"Hello\";`"
   },
   {
     "id": 11,
-    "question": "Which HTML element is used to define an interactive component in HTML5?",
-    "options": ["<interactive>", "<details>", "<toggle>", "<behavior>"],
-    "answer": "<details>"
+    "question": "What does the `strcmp` function do in C?",
+    "options": [
+      "Compares two strings and returns 1 if they are equal",
+      "Concatenates two strings",
+      "Compares two strings and returns 0 if they are equal",
+      "Copies one string into another"
+    ],
+    "answer": "Compares two strings and returns 0 if they are equal"
   },
   {
     "id": 12,
-    "question": "Which of the following elements can be used to define a client-side image map?",
+    "question": "Which header file should be included to use input/output functions in C?",
     "options": [
-      "<map> and <area>",
-      "<picture> and <source>",
-      "<canvas> and <img>",
-      "<image> and <link>"
+      "`<input.h>`",
+      "`<output.h>`",
+      "`<stdio.h>`",
+      "`<iostream.h>`"
     ],
-    "answer": "<map> and <area>"
+    "answer": "`<stdio.h>`"
   },
   {
     "id": 13,
-    "question": "What is the purpose of the 'autocomplete' attribute in an <input> field?",
+    "question": "What is the purpose of the `void` keyword in a function declaration in C?",
     "options": [
-      "To allow auto-filling based on previous user input",
-      "To prevent users from entering incorrect data",
-      "To limit the number of characters entered",
-      "To disable the input field"
+      "Indicates that the function returns nothing",
+      "Indicates that the function takes no arguments",
+      "Indicates that the function is recursive",
+      "Indicates that the function is static"
     ],
-    "answer": "To allow auto-filling based on previous user input"
+    "answer": "Indicates that the function returns nothing"
   },
   {
     "id": 14,
-    "question": "Which HTTP status code is returned when an HTML page is successfully loaded?",
-    "options": ["200", "404", "500", "301"],
-    "answer": "200"
+    "question": "What is the output of the following code snippet? ```c int x = 10; printf(\"%d\", x > 5 ? 1 : 0); ```",
+    "options": [
+      "1",
+      "0",
+      "Error",
+      "Depends on the system"
+    ],
+    "answer": "1"
   },
   {
     "id": 15,
-    "question": "What is the primary function of the <noscript> tag in HTML?",
+    "question": "Which of the following is not a valid control structure in C?",
     "options": [
-      "To define a fallback for users with disabled JavaScript",
-      "To execute scripts that run without JavaScript",
-      "To prevent all scripts from running",
-      "To block inline styles"
+      "switch-case",
+      "if-else",
+      "repeat-until",
+      "for loop"
     ],
-    "answer": "To define a fallback for users with disabled JavaScript"
+    "answer": "repeat-until"
   },
   {
     "id": 16,
-    "question": "Which of the following HTML elements is used for defining metadata?",
-    "options": ["<meta>", "<head>", "<data>", "<info>"],
-    "answer": "<meta>"
+    "question": "What does the `%d` format specifier indicate in a printf statement in C?",
+    "options": [
+      "Double",
+      "Decimal integer",
+      "String",
+      "Character"
+    ],
+    "answer": "Decimal integer"
   },
   {
     "id": 17,
-    "question": "Which attribute is required in an <img> tag for accessibility?",
-    "options": ["src", "alt", "title", "width"],
-    "answer": "alt"
+    "question": "What is the correct way to declare a constant in C?",
+    "options": [
+      "`constant int x = 5;`",
+      "`int constant x = 5;`",
+      "`const int x = 5;`",
+      "`int x = const 5;`"
+    ],
+    "answer": "`const int x = 5;`"
   },
   {
     "id": 18,
-    "question": "Which event attribute is used to execute JavaScript when an element loses focus?",
-    "options": ["onblur", "onfocus", "onchange", "onhover"],
-    "answer": "onblur"
+    "question": "What does the `sizeof` operator return in C?",
+    "options": [
+      "Value of an expression",
+      "Size of a variable or data type in bytes",
+      "Address of a variable",
+      "None of the above"
+    ],
+    "answer": "Size of a variable or data type in bytes"
   },
   {
     "id": 19,
-    "question": "Which of the following best describes 'lazy loading' in HTML?",
+    "question": "What does the expression `(x && y)` evaluate to if x = 1 and y = 0?",
     "options": [
-      "It delays the loading of resources until they are needed",
-      "It preloads all images and scripts for faster rendering",
-      "It removes unnecessary elements from the page",
-      "It loads all content at once to prevent flickering"
+      "1",
+      "0",
+      "True",
+      "False"
     ],
-    "answer": "It delays the loading of resources until they are needed"
+    "answer": "0"
   },
   {
     "id": 20,
-    "question": "Which HTML attribute is used to specify a media query in a <link> tag?",
-    "options": ["query", "media", "type", "condition"],
-    "answer": "media"
+    "question": "How do you declare a pointer variable in C?",
+    "options": [
+      "`pointer p;`",
+      "`p pointer;`",
+      "`int *p;`",
+      "`*int p;`"
+    ],
+    "answer": "`int *p;`"
   },
   {
     "id": 21,
-    "question": "What is the sum of the interior angles of a hexagon?",
-    "options": ["360°", "540°", "720°", "900°"],
-    "answer": "720°"
+    "question": "What is the purpose of using `malloc` function in C?",
+    "options": [
+      "To free allocated memory",
+      "To allocate memory dynamically",
+      "To declare a new variable",
+      "To print memory address"
+    ],
+    "answer": "To allocate memory dynamically"
   },
   {
     "id": 22,
-    "question": "If a car travels at a speed of 60 km/h for 2.5 hours, how far does it travel?",
-    "options": ["120 km", "125 km", "150 km", "180 km"],
-    "answer": "150 km"
+    "question": "Which of these functions is used to compare two strings in C?",
+    "options": [
+      "`strcat()`",
+      "`strcmp()`",
+      "`strlen()`",
+      "`strcpy()`"
+    ],
+    "answer": "`strcmp()`"
   },
   {
     "id": 23,
-    "question": "What is the value of 7! (7 factorial)?",
-    "options": ["720", "2520", "5040", "40320"],
-    "answer": "5040"
+    "question": "What is the correct way to include a header file in a C program?",
+    "options": [
+      "`#include \"header.h\"`",
+      "`include <header.h>`",
+      "`#import \"header.h\"`",
+      "`import header.h`"
+    ],
+    "answer": "`#include \"header.h\"`"
   },
   {
     "id": 24,
-    "question": "If x² - 9 = 0, what are the possible values of x?",
-    "options": ["-3 and 3", "0 and 9", "-9 and 9", "Only 3"],
-    "answer": "-3 and 3"
+    "question": "What is the purpose of the `break` statement in C?",
+    "options": [
+      "Exit the loop or switch statement",
+      "Skip the current iteration of a loop",
+      "Continue to the next iteration of a loop",
+      "Print a message to the console"
+    ],
+    "answer": "Exit the loop or switch statement"
   },
   {
     "id": 25,
-    "question": "A triangle has angles of 35° and 75°. What is the measure of the third angle?",
-    "options": ["70°", "60°", "80°", "90°"],
-    "answer": "70°"
+    "question": "Which of the following is not a valid way to declare a string in C?",
+    "options": [
+      "`char str[] = \"Hello\";`",
+      "`char *str = \"Hello\";`",
+      "`string str = \"Hello\";`",
+      "`char str[6] = {'H', 'e', 'l', 'l', 'o', '\\0'};`"
+    ],
+    "answer": "`string str = \"Hello\";`"
   },
   {
     "id": 26,
-    "question": "What is the square root of 256?",
-    "options": ["14", "15", "16", "17"],
-    "answer": "16"
+    "question": "Which symbol is used to access the value pointed to by a pointer in C?",
+    "options": [
+      "&",
+      "*",
+      "->",
+      "::"
+    ],
+    "answer": "*"
   },
   {
     "id": 27,
-    "question": "If 5x + 3 = 18, what is the value of x?",
-    "options": ["2", "3", "4", "5"],
-    "answer": "3"
+    "question": "What is the purpose of the `malloc` function in C?",
+    "options": [
+      "Free allocated memory",
+      "Allocate memory dynamically",
+      "Return the size of a variable",
+      "Concatenate strings"
+    ],
+    "answer": "Allocate memory dynamically"
   },
   {
     "id": 28,
-    "question": "What is the next number in the sequence: 2, 6, 12, 20, ...?",
-    "options": ["26", "30", "32", "36"],
-    "answer": "30"
+    "question": "Which function is used to compare two strings in C?",
+    "options": [
+      "`strcmp()`",
+      "`strcat()`",
+      "`strlen()`",
+      "`strcpy()`"
+    ],
+    "answer": "`strcmp()`"
   },
   {
     "id": 29,
-    "question": "What is the area of a circle with a radius of 7 cm? (Use π = 3.14)",
-    "options": ["144.01 cm²", "154 cm²", "161 cm²", "140 cm²"],
-    "answer": "154 cm²"
+    "question": "What is the correct way to declare a constant in C?",
+    "options": [
+      "`constant int x = 5;`",
+      "`int const x = 5;`",
+      "`int x = const 5;`",
+      "`define x 5;`"
+    ],
+    "answer": "`int const x = 5;`"
   },
   {
     "id": 30,
-    "question": "What is 2/3 of 120?",
-    "options": ["40", "60", "80", "100"],
-    "answer": "80"
+    "question": "Which of the following is not a valid identifier in C?",
+    "options": [
+      "`_variable`",
+      "`123variable`",
+      "`var_name`",
+      "`variable123`"
+    ],
+    "answer": "`123variable`"
   },
   {
     "id": 31,
-    "question": "The sum of two numbers is 90, and their difference is 30. What is the larger number?",
-    "options": ["50", "60", "70", "80"],
-    "answer": "60"
+    "question": "What does the `void` keyword indicate in a function declaration in C?",
+    "options": [
+      "The function returns nothing",
+      "The function takes no arguments",
+      "The function is a recursive function",
+      "The function is a library function"
+    ],
+    "answer": "The function returns nothing"
   },
   {
     "id": 32,
-    "question": "What is the perimeter of a rectangle with length 8 cm and width 5 cm?",
-    "options": ["26 cm", "20 cm", "30 cm", "24 cm"],
-    "answer": "26 cm"
+    "question": "Which of the following is used to access elements in an array in C?",
+    "options": [
+      "()",
+      "[]",
+      "{}",
+      "<>"
+    ],
+    "answer": "[]"
   },
   {
     "id": 33,
-    "question": "If a number is increased by 20% and then decreased by 20%, what is the net effect?",
+    "question": "What is the purpose of the `continue` statement in C?",
     "options": [
-      "The number remains the same",
-      "The number increases",
-      "The number decreases",
-      "Depends on the original number"
+      "Exit the loop",
+      "Skip the current iteration of a loop",
+      "Jump to a specific label in the program",
+      "Print a message to the console"
     ],
-    "answer": "The number decreases"
+    "answer": "Skip the current iteration of a loop"
   },
   {
     "id": 34,
-    "question": "What is the cube root of 64?",
-    "options": ["2", "4", "6", "8"],
-    "answer": "4"
+    "question": "What is the correct way to define a structure in C?",
+    "options": [
+      "`struct Person { char name; int age; };`",
+      "`struct { char name; int age; } Person;`",
+      "`struct Person { char name; int age; }`",
+      "`Person { char name; int age; };`"
+    ],
+    "answer": "`struct Person { char name; int age; }`"
   },
   {
     "id": 35,
-    "question": "What is the sum of the first 10 natural numbers?",
-    "options": ["45", "50", "55", "60"],
-    "answer": "55"
+    "question": "What is the output of the following code snippet? ```c int x = 10; int y = 3; printf(\"%d\", x / y); ```",
+    "options": [
+      "3",
+      "2",
+      "3.33",
+      "0"
+    ],
+    "answer": "3"
   },
   {
     "id": 36,
-    "question": "Which number is a prime number?",
-    "options": ["25", "27", "29", "30"],
-    "answer": "29"
+    "question": "Which of the following is used to define a pointer in C?",
+    "options": [
+      "&",
+      "*",
+      "->",
+      "::"
+    ],
+    "answer": "*"
   },
   {
     "id": 37,
-    "question": "If the average of five numbers is 48, what is their total sum?",
-    "options": ["200", "220", "240", "250"],
-    "answer": "240"
+    "question": "Which of the following is not a valid way to initialize an array in C?",
+    "options": [
+      "`int arr[5] = {1, 2, 3, 4, 5};`",
+      "`int arr[] = {1, 2, 3, 4, 5};`",
+      "`int arr[5]; arr = {1, 2, 3, 4, 5};`",
+      "`int arr[5]; for (int i = 0; i < 5; i++) arr[i] = i + 1;`"
+    ],
+    "answer": "`int arr[5]; arr = {1, 2, 3, 4, 5};`"
   },
   {
     "id": 38,
-    "question": "A shopkeeper buys a product for $80 and sells it for $100. What is the profit percentage?",
-    "options": ["10%", "20%", "25%", "30%"],
-    "answer": "25%"
+    "question": "What is the output of the following code snippet? ```c int x = 7; printf(\"%d\", x % 2); ```",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "1"
   },
   {
     "id": 39,
-    "question": "If 9a = 81, what is the value of a?",
-    "options": ["7", "8", "9", "10"],
-    "answer": "9"
+    "question": "Which function is used to copy one string to another in C?",
+    "options": [
+      "`strcat()`",
+      "`strcpy()`",
+      "`strlen()`",
+      "`strcmp()`"
+    ],
+    "answer": "`strcpy()`"
   },
   {
     "id": 40,
-    "question": "A train moves at a speed of 90 km/h. How long will it take to cover 450 km?",
-    "options": ["3 hours", "4 hours", "5 hours", "6 hours"],
-    "answer": "5 hours"
+    "question": "What does the `static` keyword do when applied to a variable in C?",
+    "options": [
+      "Limits the variable's scope to the current file",
+      "Makes the variable immutable",
+      "Allocates memory dynamically for the variable",
+      "Initializes the variable with a default value"
+    ],
+    "answer": "Limits the variable's scope to the current file"
   },
   {
     "id": 41,
-    "question": "Which CSS property is used to change the text color of an element?",
-    "options": ["text-color", "color", "font-color", "foreground"],
-    "answer": "color"
+    "question": "What is the purpose of the `do-while` loop in C?",
+    "options": [
+      "Execute a block of code repeatedly as long as a condition is true",
+      "Execute a block of code only once",
+      "Execute a block of code based on a condition at the beginning of the loop",
+      "Execute a block of code based on a condition at the end of the loop"
+    ],
+    "answer": "Execute a block of code repeatedly as long as a condition is true"
   },
   {
     "id": 42,
-    "question": "Which CSS property is used to make text bold?",
-    "options": ["text-weight", "font-weight", "bold", "text-bold"],
-    "answer": "font-weight"
+    "question": "Which symbol is used for preprocessor directives in C?",
+    "options": [
+      "#",
+      "$",
+      "&",
+      "*"
+    ],
+    "answer": "#"
   },
   {
     "id": 43,
-    "question": "What is the default position of an HTML element?",
-    "options": ["relative", "absolute", "fixed", "static"],
-    "answer": "static"
+    "question": "What is the purpose of the ternary operator (`? :`) in C?",
+    "options": [
+      "Assign a value to a variable based on a condition",
+      "Perform arithmetic operations",
+      "Compare two values",
+      "Concatenate strings"
+    ],
+    "answer": "Assign a value to a variable based on a condition"
   },
   {
     "id": 44,
-    "question": "Which CSS property controls the space between lines of text?",
+    "question": "Which library should be included to use input/output functions like `printf` and `scanf` in C?",
     "options": [
-      "letter-spacing",
-      "line-spacing",
-      "line-height",
-      "text-spacing"
+      "`<stdlib.h>`",
+      "`<math.h>`",
+      "`<string.h>`",
+      "`<stdio.h>`"
     ],
-    "answer": "line-height"
+    "answer": "`<stdio.h>`"
   },
   {
     "id": 45,
-    "question": "Which CSS property is used to set the background image of an element?",
-    "options": ["background", "background-image", "image-source", "bg-image"],
-    "answer": "background-image"
+    "question": "What is the correct way to free dynamically allocated memory in C?",
+    "options": [
+      "`free(memory);`",
+      "`delete(memory);`",
+      "`remove(memory);`",
+      "`dealloc(memory);`"
+    ],
+    "answer": "`free(memory);`"
   },
   {
     "id": 46,
-    "question": "Which property is used to set the width of an element’s border?",
-    "options": ["border-size", "border-width", "border-style", "border"],
-    "answer": "border-width"
+    "question": "What is the purpose of the `sizeof` operator in C?",
+    "options": [
+      "Return the size of a variable in bytes",
+      "Calculate the square root of a number",
+      "Find the remainder of a division operation",
+      "Convert a variable to a different data type"
+    ],
+    "answer": "Return the size of a variable in bytes"
   },
   {
     "id": 47,
-    "question": "What value of the position property places an element relative to its normal position?",
-    "options": ["absolute", "fixed", "relative", "static"],
-    "answer": "relative"
+    "question": "Which of the following is not a valid way to declare and initialize an array in C?",
+    "options": [
+      "`int arr[5] = {1, 2, 3, 4, 5};`",
+      "`int arr[] = {1, 2, 3, 4, 5};`",
+      "`int arr[5] = [1, 2, 3, 4, 5];`",
+      "`int arr[5] = {0};`"
+    ],
+    "answer": "`int arr[5] = [1, 2, 3, 4, 5];`"
   },
   {
     "id": 48,
-    "question": "Which CSS unit is relative to the font size of the parent element?",
-    "options": ["px", "rem", "em", "vh"],
-    "answer": "em"
+    "question": "What is the purpose of the `static` keyword in C?",
+    "options": [
+      "Declare a global variable",
+      "Allocate memory dynamically",
+      "Limit the scope of a variable to the current file",
+      "Define a constant value"
+    ],
+    "answer": "Limit the scope of a variable to the current file"
   },
   {
     "id": 49,
-    "question": "Which CSS property is used to make an element disappear but still occupy space?",
+    "question": "What does the `exit()` function do in C?",
     "options": [
-      "display: none",
-      "visibility: hidden",
-      "opacity: 0",
-      "hide: true"
+      "Print a message to the console",
+      "Exit the program immediately",
+      "Return a value from a function",
+      "Restart the program execution"
     ],
-    "answer": "visibility: hidden"
-  },
-  {
-    "id": 50,
-    "question": "Which CSS property is used to apply shadow to text?",
-    "options": ["text-shadow", "box-shadow", "shadow", "font-shadow"],
-    "answer": "text-shadow"
-  },
-  {
-    "id": 51,
-    "question": "Which of the following is NOT a valid CSS border style?",
-    "options": ["solid", "dotted", "groove", "highlight"],
-    "answer": "highlight"
-  },
-  {
-    "id": 52,
-    "question": "Which CSS property is used to control the order of flexible items?",
-    "options": ["flex-order", "order", "flex-index", "z-index"],
-    "answer": "order"
-  },
-  {
-    "id": 53,
-    "question": "Which CSS property is used to make a website responsive?",
-    "options": ["display", "position", "max-width", "media queries"],
-    "answer": "media queries"
-  },
-  {
-    "id": 54,
-    "question": "Which CSS property is used to add space between elements' content and their border?",
-    "options": ["margin", "padding", "spacing", "border-spacing"],
-    "answer": "padding"
-  },
-  {
-    "id": 55,
-    "question": "Which CSS property allows text to wrap around floating elements?",
-    "options": ["clear", "text-wrap", "overflow", "float"],
-    "answer": "float"
-  },
-  {
-    "id": 56,
-    "question": "What is the correct syntax for a CSS comment?",
-    "options": [
-      "/* This is a comment */",
-      "// This is a comment",
-      "<!-- This is a comment -->",
-      "' This is a comment"
-    ],
-    "answer": "/* This is a comment */"
-  },
-  {
-    "id": 57,
-    "question": "Which CSS property is used to create an animation?",
-    "options": ["transition", "animation", "keyframes", "animate"],
-    "answer": "animation"
-  },
-  {
-    "id": 58,
-    "question": "Which CSS property defines the transition effect?",
-    "options": ["animation", "transition", "keyframes", "duration"],
-    "answer": "transition"
-  },
-  {
-    "id": 59,
-    "question": "Which CSS property is used to create rounded corners?",
-    "options": [
-      "border-radius",
-      "corner-radius",
-      "border-style",
-      "round-border"
-    ],
-    "answer": "border-radius"
-  },
-  {
-    "id": 60,
-    "question": "Which CSS property is used to specify how an element should be displayed when its content overflows?",
-    "options": ["overflow", "visibility", "scroll", "display"],
-    "answer": "overflow"
-  },
-  {
-    "id": 61,
-    "question": "Which city is known as the 'Pink City' of Rajasthan?",
-    "options": ["Jodhpur", "Jaipur", "Udaipur", "Bikaner"],
-    "answer": "Jaipur"
-  },
-  {
-    "id": 62,
-    "question": "Which is the largest district of Rajasthan by area?",
-    "options": ["Jaisalmer", "Barmer", "Bikaner", "Nagaur"],
-    "answer": "Jaisalmer"
-  },
-  {
-    "id": 63,
-    "question": "Which fort in Rajasthan is a UNESCO World Heritage Site and is known as the 'Golden Fort'?",
-    "options": [
-      "Amber Fort",
-      "Jaisalmer Fort",
-      "Chittorgarh Fort",
-      "Mehrangarh Fort"
-    ],
-    "answer": "Jaisalmer Fort"
-  },
-  {
-    "id": 64,
-    "question": "Which desert is located in Rajasthan?",
-    "options": [
-      "Sahara Desert",
-      "Karakum Desert",
-      "Thar Desert",
-      "Atacama Desert"
-    ],
-    "answer": "Thar Desert"
-  },
-  {
-    "id": 65,
-    "question": "Which is the official state animal of Rajasthan?",
-    "options": ["Camel", "Tiger", "Elephant", "Blackbuck"],
-    "answer": "Camel"
-  },
-  {
-    "id": 66,
-    "question": "Which is the longest river in Rajasthan?",
-    "options": ["Banas", "Chambal", "Luni", "Mahi"],
-    "answer": "Chambal"
-  },
-  {
-    "id": 67,
-    "question": "Who was the founder of the city of Jaipur?",
-    "options": [
-      "Rana Pratap",
-      "Maharana Kumbha",
-      "Maharaja Sawai Jai Singh II",
-      "Bappa Rawal"
-    ],
-    "answer": "Maharaja Sawai Jai Singh II"
-  },
-  {
-    "id": 68,
-    "question": "Which is the highest peak in Rajasthan?",
-    "options": ["Guru Shikhar", "Ser Peak", "Dilwara Peak", "Sajjangarh"],
-    "answer": "Guru Shikhar"
-  },
-  {
-    "id": 69,
-    "question": "Which festival in Rajasthan is dedicated to camels?",
-    "options": ["Pushkar Fair", "Desert Festival", "Teej", "Gangaur"],
-    "answer": "Pushkar Fair"
-  },
-  {
-    "id": 70,
-    "question": "Which city in Rajasthan is known as the 'City of Lakes'?",
-    "options": ["Udaipur", "Jaipur", "Jodhpur", "Bikaner"],
-    "answer": "Udaipur"
-  },
-  {
-    "id": 71,
-    "question": "Which famous battle took place between Maharana Pratap and Akbar's forces in 1576?",
-    "options": [
-      "Battle of Panipat",
-      "Battle of Chittorgarh",
-      "Battle of Haldighati",
-      "Battle of Ranthambore"
-    ],
-    "answer": "Battle of Haldighati"
-  },
-  {
-    "id": 72,
-    "question": "Which dynasty ruled over Mewar before the British took control?",
-    "options": ["Maurya", "Gupta", "Sisodia", "Tomar"],
-    "answer": "Sisodia"
-  },
-  {
-    "id": 73,
-    "question": "Which is the state flower of Rajasthan?",
-    "options": ["Rose", "Lotus", "Rohida", "Marigold"],
-    "answer": "Rohida"
-  },
-  {
-    "id": 74,
-    "question": "Which Rajasthan city is famous for its blue-colored houses?",
-    "options": ["Jodhpur", "Jaipur", "Bikaner", "Ajmer"],
-    "answer": "Jodhpur"
-  },
-  {
-    "id": 75,
-    "question": "Who is known as the 'Desert Fox of Rajasthan'?",
-    "options": [
-      "Rana Sanga",
-      "Maharaja Suraj Mal",
-      "Maharana Pratap",
-      "Lt. Gen. Sagat Singh"
-    ],
-    "answer": "Lt. Gen. Sagat Singh"
-  },
-  {
-    "id": 76,
-    "question": "Which Rajasthan city is known for its marble industry?",
-    "options": ["Makrana", "Kota", "Jaisalmer", "Bhilwara"],
-    "answer": "Makrana"
-  },
-  {
-    "id": 77,
-    "question": "Which is the only hill station in Rajasthan?",
-    "options": ["Mount Abu", "Kumbhalgarh", "Guru Shikhar", "Sariska"],
-    "answer": "Mount Abu"
-  },
-  {
-    "id": 78,
-    "question": "Which of these is a famous folk dance of Rajasthan?",
-    "options": ["Bhangra", "Kathakali", "Ghoomar", "Odissi"],
-    "answer": "Ghoomar"
-  },
-  {
-    "id": 79,
-    "question": "Which Rajasthan fort has the largest wall in the world after the Great Wall of China?",
-    "options": [
-      "Jaisalmer Fort",
-      "Amber Fort",
-      "Kumbhalgarh Fort",
-      "Chittorgarh Fort"
-    ],
-    "answer": "Kumbhalgarh Fort"
-  },
-  {
-    "id": 80,
-    "question": "Which is the largest tiger reserve in Rajasthan?",
-    "options": [
-      "Sariska Tiger Reserve",
-      "Ranthambore National Park",
-      "Mukundra Hills",
-      "Desert National Park"
-    ],
-    "answer": "Ranthambore National Park"
+    "answer": "Exit the program immediately"
   }
 ]
